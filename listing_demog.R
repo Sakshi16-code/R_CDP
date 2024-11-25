@@ -61,7 +61,7 @@ lst_demo <- data.frame(
 )
 
 # Define the output file path
-output_file_path <- "~/p21_requirements/data/data/dummy/output/TFL/lst_demo.docx"
+output_file_path <- "~/path/output/TFL/lst_demo.docx"
 
 # Create a new Word document and add the table with a different style
 doc <- read_docx() %>%
